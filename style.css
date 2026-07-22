@@ -1,0 +1,102 @@
+/* Resets básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #5c7883;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    color: red;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #db33cd;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+}
+
+#servicos {
+    background-color: rgb(0, 255, 55);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#sobre {
+    background-color: rgb(0, 217, 255);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.coluna {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contato {
+    background-color: rgb(0, 217, 255);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.img-contato {
+    display: grid;            /* Ativa o modo Grid */
+    place-items: center;      /* Centraliza na vertical e horizontal ao mesmo tempo */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
