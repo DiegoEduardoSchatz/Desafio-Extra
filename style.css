@@ -100,7 +100,7 @@ footer {
 
 /* Responsividade: em telas pequenas, as colunas ficam uma embaixo da outra */
 @media (max-width: 768px) {
-    .conteudo-principal {
+    .container {
         flex-direction: column;
     }
     
